@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.profile-card {
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ddd;
+}
+
+h1 {
+    margin: 20px 0 5px;
+}
+
+h3 {
+    margin: 0;
+    color: #666;
+    font-weight: normal;
+}
+
+.bio {
+    color: #444;
+    font-size: 1.1em;
+    margin: 20px 0;
+    line-height: 1.5em;
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-gallery img {
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
